@@ -1,0 +1,186 @@
+/* Navigation section */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li {
+    font-size: 0.79rem;
+}
+
+
+/* Home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 2px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home p {
+    font-size: 0.6rem;
+}
+
+#home::before {
+    height: 70%;
+}
+
+#home::after {
+    height: 70%;
+}
+
+/* Services section */
+#services {
+    flex-direction: column;
+}
+
+#services .box {
+    margin: 10px 10px;
+}
+
+
+/* Clients section */
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    height: 72px;
+}
+
+#client-section::before {
+    height: 35%;
+
+}
+
+#client-section {
+    height: 202px;
+}
+
+/* Contact Us section */
+#contact-form .btn {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    padding: 2px 108px;
+    border: 2px solid white;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: auto;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#contact::after {
+    background-position: -283px 0px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 95%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+#contact-form {
+    font-size: 0.6rem;
+}
+
+#contact-form label {
+    font-size: 0.9rem;
+}
+
+
+/* Footer section */
+footer {
+    font-size: 0.7rem;
+}
+
+
+/* Utility Classes */
+.h-primary {
+    font-size: 1.2rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn {
+    font-size: 0.8rem;
+    padding: 4px 12px;
+}
+
+@media screen and (min-width: 360px) {
+    #home {
+        height: 368px;
+    }
+
+    #clients img {
+        height: 65px;
+    }
+
+    #client-section::before {
+        height: 27%;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    #home {
+        height: 470px;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    #home {
+        height: 515px;
+    }
+
+    #client-section::before {
+        height: 22%;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    #home {
+        height: 510px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    #navbar ul li {
+        font-size: 1.9rem;
+    }
+
+    .h-primary {
+        font-size: 2.2rem;
+    }
+
+    .btn {
+        font-size: 1.3rem;
+        padding: 6px 22px;
+    }
+
+    #home {
+        height: 538px;
+    }
+
+    #home::before {
+        height: 58%;
+    }
+
+    #home::after {
+        height: 58%;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+    
+    #clients img {
+        height: 100px;
+    }
+
+    #contact {
+        margin: 60px 0px;
+    }
+
+}

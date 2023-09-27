@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Darren Fitness And Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/fitness-1882721_1920.jpg');
+        font-family: 'Baloo Bhaina 2', cursive;
+        height: 3000px;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 55px;
+        top: 18px;
+    }
+
+    .left img {
+        width: 140px;
+        filter: invert(100%);
+        margin: -30px 0px -48px 0px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 4px;
+        font-size: 18px;
+    }
+
+    .center {
+        display: block;
+        width: 46.5%;
+        margin: 21px auto;
+        /* border: 2px solid rgb(208, 255, 0); */
+        overflow: hidden;
+    }
+
+    .right {
+        position: absolute;
+        top: 40px;
+        right: 22px;
+        display: inline-block;
+        /* border: 2px solid greenyellow; */
+    }
+
+    .nav {
+        display: inline-block;
+    }
+
+    .nav li {
+        display: inline-block;
+    }
+
+    .nav li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 33px 23px;
+        font-size: 20px;
+    }
+
+    .nav li a:hover,
+    .nav li a.active {
+        text-decoration: underline;
+        color: rgb(201, 223, 243);
+    }
+
+    .btn {
+        margin: 0px 10px;
+        background-color: black;
+        color: #fff;
+        padding: 0px 18px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Baloo Bhaina 2', cursive;
+        align-items: center;
+    }
+
+    .btn:hover {
+        background-color: rgb(37, 37, 37);
+    }
+
+    .container {
+        border: 2px solid rgb(255 255 255);
+        width: 38%;
+        margin: 120px 48px;
+        padding: 50px;
+        border-radius: 22px;
+    }
+
+    .fillup input {
+        font-family: 'Baloo Bhaina 2', cursive;
+        text-align: center;
+        display: block;
+        width: 90%;
+        padding: 0px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container .btn {
+        width: 90%;
+        display: block;
+        margin: 15px auto;
+        font-size: 18px;
+        padding: 3px 0px;
+    }
+
+    .container .btn:hover {
+        background-color: rgb(14, 14, 14);
+    }
+
+    .right .btn a {
+        text-decoration: none;
+        color: white;
+    }
+    .left-logo{
+        margin: 0px 0px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left for logo -->
+        <div class="left-logo">
+            <div class="left">
+                <img src="img/logo.png" alt="">
+                <div>Darren Fitness</div>
+            </div>
+        </div>
+
+        <!-- Center for navigation -->
+        <div class="center">
+            <ul class="nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Check</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right for Contact -->
+        <div class="right">
+            <button class="btn"><a href="#">Call Us</a></button>
+            <button class="btn"><a href="#">Email Us</a></button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join The Gym Now</h1>
+        <form action="index.php">
+            <div class="fillup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="fillup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="fillup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="fillup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="fillup">
+                <input type="text" name="" placeholder="Enter your Mobile Number">
+            </div>
+            <div class="fillup">
+                <input type="text" name="" placeholder="Enter your Email ID">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
