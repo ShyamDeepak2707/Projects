@@ -1,3 +1,8 @@
+/* Html */
+html {
+    scroll-behavior: smoothgit;
+}
+
 /* Navigation section */
 #navbar {
     flex-direction: column;
@@ -61,7 +66,7 @@
 /* Contact Us section */
 #contact-form .btn {
     font-family: 'Baloo Bhaijaan 2', cursive;
-    padding: 2px 108px;
+    padding: 2px 111px;
     border: 2px solid white;
     background-color: rgb(0, 0, 0);
     color: white;
@@ -77,13 +82,16 @@
 
 #contact-form input,
 #contact-form textarea {
-    width: 95%;
+    width: 90%;
     padding: 0.5rem;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 #contact-form {
     font-size: 0.6rem;
+    margin: 40px;
 }
 
 #contact-form label {
